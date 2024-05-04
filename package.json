@@ -1,0 +1,16 @@
+{
+    "name": "binance-orderbook-logger",
+    "version": "1.0.0",
+    "description": "Logs the top 20 bid and bottom 20 ask levels of the BTCUSDT order book from Binance every 1000ms.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "axios": "^0.27.2",
+      "ws": "^8.9.0"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+  
